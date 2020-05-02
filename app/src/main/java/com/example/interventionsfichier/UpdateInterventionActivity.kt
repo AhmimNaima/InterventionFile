@@ -47,11 +47,12 @@ class UpdateInterventionActivity: AppCompatActivity() {
         val numVal = editNum!!.text.toString()
         val nomVal = editNom!!.text.toString()
         val typeVal = editType!!.text.toString()
-        val dateVal = editdate!!.text.toString()
+        val dateVal = editdate.text.toString()
          n.nom=nomVal
          n.numero=numVal
-         n.type=typeVal
          n.date=dateVal
+         n.type=typeVal
+
         liste.add(n)
         var gson= Gson()
         var jsonString:String = gson.toJson(liste)

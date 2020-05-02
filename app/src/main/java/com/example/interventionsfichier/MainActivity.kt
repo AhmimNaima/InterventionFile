@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getInterventionBydate(date: String) {
-        var i = Array<Intervention>(2){Intervention("","","","")}
+        var i = Array<Intervention>(1){Intervention("","","","")}
         var j = 0
         var gson = Gson()
         val stream = openFileInput("fichier.json")

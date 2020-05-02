@@ -52,7 +52,7 @@ public class Intervention  implements Serializable {
     }
 
     public void setDate(String date) {
-        this.type = date;
+        this.date = date;
     }
 
 
